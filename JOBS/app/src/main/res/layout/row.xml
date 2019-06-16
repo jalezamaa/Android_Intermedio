@@ -2,6 +2,7 @@
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/row"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="220dp"
+            android:layout_width="260dp"
             android:layout_height="120dp"
             android:layout_margin="5dp"
             android:orientation="vertical">
@@ -24,8 +25,9 @@
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Titulo"
-                android:textSize="18dp"
+                android:text="@string/Titulo"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -33,23 +35,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Compañia"
-                android:textSize="18dp" />
+                android:text="@string/Compañia"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Descripción"
-                android:textSize="18dp" />
+                android:text="@string/Descripción"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Logo" />
 
     </LinearLayout>
 

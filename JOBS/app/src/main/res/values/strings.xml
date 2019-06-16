@@ -2,4 +2,7 @@
     <string name="app_name">JOBS</string>
     <string name="Buscar">Buscar</string>
     <string name="Descripción">Descripción</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Compañia">Compañia</string>
+    <string name="Logo">Logo</string>
 </resources>
